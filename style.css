@@ -621,12 +621,12 @@ footer {
 }
 
 .sec8-box-container {
-    display: flex;
-
+   display: flex;
+    
 }
 
 .sec8-title {
-
+    
     color: rgba(230, 83, 60, 1);
     margin: 0 auto;
     font-weight: 800;
@@ -663,15 +663,15 @@ footer {
     margin-right: 102px;
     margin-top: 66px;
 
-
-
+    
+    
 }
 
 .b-2 {
     margin-right: 152px;
     margin-top: 66px;
 
-
+    
 
 }
 
@@ -679,13 +679,11 @@ footer {
     margin-top: 66px;
 }
 
-.hr {
-    margin-top: 80px;
+.hr{margin-top: 80px;
     max-width: 75%;
     color: rgba(255, 255, 255, 0.1);
 }
-
-.ending {
+.ending{
     height: 24px;
     width: 318px;
     margin: 0 auto;
@@ -695,15 +693,18 @@ footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
-
 /* responsive  */
 
 @media screen and (max-width: 576px) {
 
+
+  
     .hidden {
         display: none;
 
     }
+
+   
 
     .nav-container i {
         display: inline;
@@ -711,29 +712,34 @@ footer {
     }
 
     .nav-container {
-        width: 100vw;
+        max-width: 90%;
         margin: 0 auto;
+    
     }
 
     .sec2-container {
-        flex-direction: column;
-        position: fixed;
-        display: block;
-        margin: 0 auto;
-
-    }
-
-    .sec3-container {
+        max-width: 90%;
         margin: 0 auto;
         flex-direction: column;
-        position: fixed;
-        display: block;
+       
+}
+.sec3-container{
+    max-width: 90%;
+    margin: 0 auto;
+   
+}
+.habit-description{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+}
 
-
-
-
-
-    }
-
+.sec4-container{
+    max-width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+   
 
 }
