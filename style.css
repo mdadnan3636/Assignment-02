@@ -618,24 +618,16 @@ footer {
     max-width: 75%;
     margin: 0 auto;
     margin-top: 88px;
-   
-    /* border: 1px solid cornflowerblue; */
 }
 
 .sec8-box-container {
-    /* height: 249px; */
-    /* width: 1060px; */
-    /* margin: 0 auto; */
-    
     display: flex;
-    
+
 }
 
 .sec8-title {
-    
+
     color: rgba(230, 83, 60, 1);
-    /* height: 84px; */
-    /* width: 256px; */
     margin: 0 auto;
     font-weight: 800;
     font-size: 70px;
@@ -643,8 +635,6 @@ footer {
 }
 
 .sec8-para {
-    /* height: 72px; */
-    /* width: 443px; */
     margin: 0 auto;
     line-height: 150%;
     margin-top: 20px;
@@ -653,8 +643,6 @@ footer {
 }
 
 .sec8-title2 {
-    /* height: 38px; */
-    /* width: 181px; */
     margin: 0 auto;
     font-size: 32px;
     font-weight: 700;
@@ -663,59 +651,51 @@ footer {
 }
 
 .sec8sub {
-    /* height: 172px; */
-    /* width: 181px; */
     margin: 0 auto;
     font-size: 23px;
     color: rgba(255, 255, 255, 0.5);
-    /* margin-bottom: 20px; */
-    /* margin-bottom: 20px; */
     line-height: 150%;
 
 }
 
 .b-1 {
-    /* height: 176px; */
     width: 443px;
-    /* margin: 0 auto; */
     margin-right: 102px;
     margin-top: 66px;
 
-    
-    
+
+
 }
 
 .b-2 {
-    /* height: 249px; */
-    /* width: 181px; */
-
-    /* margin: 0 auto; */
     margin-right: 152px;
     margin-top: 66px;
 
-    
+
 
 }
 
 .b-3 {
-    /* height: 249px; */
-    /* width: 181px; */
-    /* margin: 0 auto; */
     margin-top: 66px;
-
-
 }
 
-.hr{margin-top: 80px;
+.hr {
+    margin-top: 80px;
     max-width: 75%;
     color: rgba(255, 255, 255, 0.1);
 }
-.ending{
+
+.ending {
+    height: 24px;
+    width: 318px;
+    margin: 0 auto;
+    font-size: 20px;
     margin-top: 36px;
     margin-bottom: 35px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
+
 /* responsive  */
 
 @media screen and (max-width: 576px) {
