@@ -48,7 +48,7 @@ body {
 }
 
 .nav-content ul {
-    max-width: 465px;
+    /* max-width: 465px; */
     height: 46px;
     padding: 3px 12px 3px 3px;
     display: flex;
@@ -151,7 +151,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
+    border-radius: 12px;
     background-color: rgba(48, 48, 48, 0.54);
     padding: 20px 23px;
     height: 98px;
@@ -159,6 +159,20 @@ body {
     gap: 12px;
     position: absolute;
     margin-top: 94%;
+}
+
+.sec2-box2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+
+    padding: 20px 23px;
+    height: 98px;
+    width: 193px;
+    gap: 12px;
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 20%;
 }
 
 .sec2-round1 {
@@ -180,19 +194,7 @@ body {
     color: rgba(239, 237, 232, 0.65);
 }
 
-.sec2-box2 {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    background-color: rgba(48, 48, 48, 0.54);
 
-    padding: 20px 23px;
-    height: 98px;
-    width: 193px;
-    gap: 12px;
-    position: absolute;
-    margin-left: 72%;
-    margin-top: 20%;
-}
 
 .sec2-num2 {
     width: 116px;
@@ -310,7 +312,7 @@ body {
     max-width: 75%;
     margin: 0 auto;
     margin-top: 100px;
-    max-height: 371px;
+    /* max-height: 371px; */
     background-image: linear-gradient(rgba(34, 34, 34, 1), rgba(136, 136, 136, 1));
     border-radius: 18px;
     gap: 165px;
@@ -694,52 +696,3 @@ footer {
     color: rgba(255, 255, 255, 0.5);
 }
 /* responsive  */
-
-@media screen and (max-width: 576px) {
-
-
-  
-    .hidden {
-        display: none;
-
-    }
-
-   
-
-    .nav-container i {
-        display: inline;
-
-    }
-
-    .nav-container {
-        max-width: 90%;
-        margin: 0 auto;
-    
-    }
-
-    .sec2-container {
-        max-width: 90%;
-        margin: 0 auto;
-        flex-direction: column;
-       
-}
-.sec3-container{
-    max-width: 90%;
-    margin: 0 auto;
-   
-}
-.habit-description{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    margin: 0 auto;
-}
-
-.sec4-container{
-    max-width: 95%;
-    margin: 0 auto;
-    flex-direction: column;
-    
-}
-   
-
-}
